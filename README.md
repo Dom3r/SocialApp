@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Social-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application for building social networks.
+The application has the most important funcionalities of popular social networking services.
 
-## Available Scripts
+### Technologies
 
-In the project directory, you can run:
+- MongoDB
+- React.js
+- Express.js
+- Node.js
+- Mailtrap
+- Socket.IO
+- Axios
+- Redux
+- Firebase Storage
 
-### `yarn start`
+### Main features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- login and registration,
+- adding posts with photos or videos,
+- adding and removing friends,
+- entering other people's profiles,
+- commenting and responding to posts, 
+- edit your own profile,
+- preview of friends and followers,
+- overview of proposed friends,
+- chatting with friends,
+- password reset.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installation
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. create an account on the official MongoDB website or install the MongoDB database management system.
+2. creating an account on the official Mailtrap website.
+3. connect the database and Mailtrap to the application - set the appropriate URL used by the database and the username and password used by the mailbox on the Mailtrap site. Put this data in the configuration file named ".env".
+4. in the application folder run the command:
+- npm install - install the application with all the necessary modules.
+5. move to the backend folder and run the command:
+- yarn start - start the database server connection.
+6. next in the application folder run the command:
+- yarn start - start the application.
