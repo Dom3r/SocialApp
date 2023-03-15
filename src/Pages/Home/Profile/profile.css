@@ -1,0 +1,9 @@
+.profileContainer {
+  background-color: rgb(228, 231, 234);
+}
+.subProfileContainer {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}

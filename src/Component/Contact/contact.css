@@ -1,0 +1,35 @@
+.mainContactContainer {
+  flex: 1;
+  background-color: white;
+  display: flex;
+}
+.searchBarContact {
+  width: 20rem;
+  height: 4vh;
+  border-radius: 10px;
+  background-color: black;
+  border: none;
+  margin: 30px;
+  margin-top: 20px;
+  color: white;
+}
+.chatUserImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.userContainer {
+  display: flex;
+  margin-left: 10px;
+  background-color: rgb(107, 169, 131);
+  padding: 5px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 6px;
+}
+.usersDetailContainer {
+  height: 90vh;
+  overflow: hidden;
+  overflow-y: scroll;
+}
